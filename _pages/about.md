@@ -5,8 +5,6 @@ permalink: /about
 ---
 <img style="float: right; width: 35%; padding: 5px;" src=" {{site.url}}/assets/img/about.jpg ">
 
-.
-
 I am a 4th year undergraduate student doing an Inter-Disciplinary Dual Degree Program (IDDDP) with a Bachelor’s in Electrical Engineering and a Master’s in AI & Data Science from IIT Bombay.
 
 I joined IIT Bombay in the dual degree (B.Tech + M.Tech) programme in Electrical Engineering in the year 2018. 
