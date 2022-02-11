@@ -10,7 +10,7 @@ Hello there! I am a 4th year undergraduate student doing an Inter-Disciplinary D
 
 I love to work on problems in the fields of **Deep Learning**, **Computer Vision** and more recently, **Reinforcement Learning**.
 
-Since you are already here, do have a look at my [CV]({{site.url}}/_assets/pdfs/CV.pdf)!(updated January 2022).
+Since you are already here, do have a look at my [CV]({{site.url}}/assets/pdf/CV.pdf)!(updated January 2022).
 
 Going to be posting blogs soon......
 
