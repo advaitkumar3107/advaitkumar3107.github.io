@@ -4,7 +4,7 @@ permalink: /
 ---
 {% include JB/setup %}
 
-<img src=" {{site.url}}/assets/img/profile.jpg " width="200" height="200">
+<img src=" {{site.url}}/assets/img/profile.jpg " width="300" height="225">
 
 Hello there! I am a 4th year undergraduate student doing an Inter-Disciplinary Dual Degree Program with a Bachelor's in [Electrical Engineering](https://www.ee.iitb.ac.in) and a Master's in [AI & Data Science](https://www.minds.iitb.ac.in/).
 
