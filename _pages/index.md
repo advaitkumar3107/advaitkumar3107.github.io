@@ -8,7 +8,7 @@ permalink: /
 
 Hello there! I am a 4th year undergraduate student doing an Inter-Disciplinary Dual Degree Program with a Bachelor's in [Electrical Engineering](https://www.ee.iitb.ac.in) and a Master's in [AI & Data Science](https://www.minds.iitb.ac.in/).
 
-I love to work in the fields of **Deep Learning**, **Computer Vision** and more recently, **Reinforcement Learning**.
+I love to work on problems in the fields of **Deep Learning**, **Computer Vision** and more recently, **Reinforcement Learning**.
 
 Since you are already here, do have a look at my [CV]({{site.url}}/cv)!.
 
