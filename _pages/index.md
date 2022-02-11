@@ -18,6 +18,7 @@ Going to be posting blogs soon......
 
 <!-- <div style="height:250px;overflow:auto;"> -->
 * **February 2022**: Submitted my work with [Prof. Biplab Banerjee](https://biplab-banerjee.github.io/) *RSINet: Inpainting Remotely Sensed Images Using Triple GAN Framework* to the IEEE IGARSS 2022 conference.
+* **November 2021**: Presented stage 1 of my B.Tech Project: *Video Action Recognition using Generalised Zero Shot Learning* 
 * **July 2021**: Completed a Software Development Internship at Amazon (Hyderabad). Received a Pre-Placement Offer for the same!
 * **June 2021**: Awarded a change of branch from a Masters in Communication and Signal Processing to a Masters in AI & Data Science.
 * **July 2020**: Completed a Research and Development Internship at Philips Innovation Campus (Bangalore).
