@@ -4,30 +4,24 @@ permalink: /
 ---
 {% include JB/setup %}
 
-<img style="float: center; width: 45%; padding: 5px;" src=" {{site.url}}/assets/img/profile.jpg ">
+<img src=" {{site.url}}/assets/img/profile.jpg ">
 
-Hello there! My name is Mithilesh Vaidya.
+Hello there! I am a 4th year student doing an Inter-Disciplinary Dual Degree Program with a Bachelor's in [Electrical Engineering](https://www.ee.iitb.ac.in) and a Master's in [AI & Data Science](https://www.minds.iitb.ac.in/).
 
-I’m a final year student in the Electrical Engineering department at IIT Bombay.
+I love to work in the fields of **Deep Learning**, **Computer Vision** and more recently, **Reinforcement Learning**.
 
-I am broadly interested in the fields of **Machine Learning** and **Speech Processing**.
+Since you are already here, do have a look at my [CV]({{site.url}}/cv)!.
 
-I plan to use this website as a medium for sharing my projects and other random thoughts.
-
-If in a hurry, you can have a look at my [CV]({{site.url}}/cv).
-
-I blog about my experiences [here]({{site.url}}/blog.html).
+Going to be posting blogs soon......
 
 ## Updates
 
 <!-- <div style="height:250px;overflow:auto;"> -->
-* **January 2022**: Our work on *Deep Learning for Prominence Detection in Children’s Read Speech* got accepted at ICASSP 2022!
-* **January 2022**: Gave a [talk]({{site.url}}/assets/pdf/dap_wav2vec.pdf) on Wav2vec 2.0 as part of DAP lab at IIT Bombay.
-* **October 2021**: Presented Stage 1 of my Dual-Degree Project. Report available in [Projects]({{site.url}}/projects.html) section. 
-* **October 2021**: Submitted our work on *Deep Learning for Prominence Detection in Children’s Read Speech* to ICASSP 2022. Preprint available on [arXiv](https://arxiv.org/abs/2110.14273).
-* **March 2021**: Started my tenure as an Editorial Board Member for [Insight](https://www.insightiitb.org),
-  IIT Bombay's student media body.
-* **June 2020**: Completed a Hardware Development internship at [APT Portfolio](http://aptportfolio.com). I [blogged]({% post_url 2020-06-12-apt-experience %}) about my experience!
+* **February 2022**: Submitted my work with [Prof. Biplab Banerjee](https://biplab-banerjee.github.io/) *RSINet: Inpainting Remotely Sensed Images Using Triple GAN Framework* to the IEEE IGARSS 2022 conference.
+* **July 2021**: Completed a Software Development Internship at Amazon (Hyderabad). Received a Pre-Placement Offer for the same!
+* **June 2021**: Awarded a change of branch from a Masters in Communication and Signal Processing to a Masters in AI & Data Science.
+* **July 2020**: Completed a Research and Development Internship at Philips Innovation Campus (Bangalore).
+* **July 2018**: Joined the integrated dual degree programme at [IIT Bombay](https://www.iitb.ac.in/) with a Bachelor's in Electrical Engineering and a Master's focused in Communications and Signal Processing.
 <!-- </div> -->
 
 
