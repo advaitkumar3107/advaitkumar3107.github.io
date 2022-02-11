@@ -6,7 +6,7 @@ permalink: /
 
 <img src=" {{site.url}}/assets/img/profile.jpg " width="600" height="450">
 
-Hello there! I am a 4th year undergraduate student doing an Inter-Disciplinary Dual Degree Program with a Bachelor's in [Electrical Engineering](https://www.ee.iitb.ac.in) and a Master's in [AI & Data Science](https://www.minds.iitb.ac.in/).
+Hello there! I am a 4th year undergraduate student doing an Inter-Disciplinary Dual Degree Program with a Bachelor's in [Electrical Engineering](https://www.ee.iitb.ac.in) and a Master's in [AI & Data Science](https://www.minds.iitb.ac.in/) from [IITB](https://www.iitb.ac.in). I am currently working on Video Action Recognition, using Generalised Zero Shot Learning, as part of my Bachelor's thesis under [Prof. Biplab Banerjee](https://biplab-banerjee.github.io/). 
 
 I love to work on problems in the fields of **Deep Learning**, **Computer Vision** and more recently, **Reinforcement Learning**.
 
