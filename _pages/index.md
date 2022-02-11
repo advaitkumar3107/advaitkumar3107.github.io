@@ -4,9 +4,9 @@ permalink: /
 ---
 {% include JB/setup %}
 
-<img style="float: center; width: 45%; padding: 5px;" src=" {{site.url}}/assets/img/profile.jpg ">
+<img style="float: left; width: 45%; padding: 5px;" src=" {{site.url}}/assets/img/profile.jpg ">
 
-Hello there! My name is Mithilesh Vaidya.
+Hello there! I am a .
 
 I’m a final year student in the Electrical Engineering department at IIT Bombay.
 
