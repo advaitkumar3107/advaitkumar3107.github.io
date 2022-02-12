@@ -3,8 +3,6 @@ layout: page
 title: Projects
 permalink: /projects
 ---
-<!DOCTYPE html>
-<html>
 <head>
 <style>
 .button {
