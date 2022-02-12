@@ -3,16 +3,34 @@ layout: page
 title: Projects
 permalink: /projects
 ---
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
 
-### Research Projects
----
-
+.button1 {background-color: #4CAF50;} /* Green */
+.button2 {background-color: #008CBA;} /* Blue */
+</style>
+</head>
+  
 <img style="float: right;" src="{{site.url}}/assets/img/im_result.png">
 ## RSINet: Inpainting Remotely Sensed Images Using Triple GAN Framework 
 We tackle the problem of image inpainting in the remote sensing domain. Remote sensing images possess high resolution and geographical variations, that render the conventional inpainting methods less effective. This further entails the requirement of models with high complexity to sufficiently capture the spectral, spatial and textural nuances within an image, emerging from its high spatial variability. To this end, we propose a novel inpainting method that individually focuses on each aspect of an image such as edges, colour and texture using a task specific GAN. Moreover, each individual GAN also incorporates the attention mechanism that
 explicitly extracts the spectral and spatial features. To ensure consistent gradient flow, the model uses residual learning paradigm, thus simultaneously working with high and low level features. We evaluate our model, along with previous state of the art models, on the two well known remote sensing datasets, Open Cities AI and Earth on Canvas, and achieve competitive performance
 
-<button name="button" onclick="{{site.url}}/assets/pdf/inpainting.pdf">Paper</button> <button name="button" onclick="https://github.com/advaitkumar3107/RSINet">Code</button>
+<button class="button button2" onclick="{{site.url}}/assets/pdf/inpainting.pdf">Paper</button> <button class="button button2" onclick="https://github.com/advaitkumar3107/RSINet">Code</button>
+
 
 <!---
 * Dual-Degree Project (Stage 1): Deep Learning for Prominence Detection in Children’s Read Speech (based on waveform segments)  
