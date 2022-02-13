@@ -25,63 +25,69 @@ permalink: /projects
 <img style="float: right;" src="{{site.url}}/assets/img/im_result.png">
 
 #### RSINet: Inpainting Remotely Sensed Images Using Triple GAN Framework 
-We tackle the problem of image inpainting in the remote sensing domain. Remote sensing images possess high resolution and geographical variations, that render the conventional inpainting methods less effective. This further entails the requirement of models with high complexity to sufficiently capture the spectral, spatial and textural nuances within an image, emerging from its high spatial variability. To this end, we propose a novel inpainting method that individually focuses on each aspect of an image such as edges, colour and texture using a task specific GAN. Moreover, each individual GAN also incorporates the attention mechanism that
-explicitly extracts the spectral and spatial features. To ensure consistent gradient flow, the model uses residual learning paradigm, thus simultaneously working with high and low level features. We evaluate our model, along with previous state of the art models, on the two well known remote sensing datasets, Open Cities AI and Earth on Canvas, and achieve competitive performance
+We tackle the problem of image inpainting in the remote sensing domain. We propose a novel inpainting method that individually focuses on each aspect of an image such as edges, colour and texture using a task specific GAN. Moreover, each individual GAN also incorporates the attention mechanism thatexplicitly extracts the spectral and spatial features. To ensure consistent gradient flow, the model uses residual learning paradigm, thus simultaneously working with high and low level features. We evaluate our model, along with previous state of the art models, on the two well known remote sensing datasets, Open Cities AI and Earth on Canvas, and achieve better performance
 
-<button class="button button2" onclick="{{site.url}}/assets/pdf/inpainting.pdf">Paper</button> <button class="button button2" onclick="https://github.com/advaitkumar3107/RSINet">Code</button>
+<button class="button button2" onclick="{{site.url}}/assets/pdf/inpainting.pdf" type="button">Paper</button> <button class="button button2" onclick="https://github.com/advaitkumar3107/RSINet" type="button">Code</button>
 
+---
 
-<!---
-* Dual-Degree Project (Stage 1): Deep Learning for Prominence Detection in Children’s Read Speech (based on waveform segments)  
-  [[presentation]]({{ site.url }}/assets/pdf/ddp1_ppt.pptx) [[report]]({{ site.url }}/assets/pdf/ddp1_report.pdf) [[arXiv]](https://arxiv.org/abs/2110.14273)
+<img style="float: right;" src="{{site.url}}/assets/img/gzsl.png">
 
-* Character Animation from Video in Blender  
-  [[presentation]](https://docs.google.com/presentation/d/1TEVYZGPMrn5LLypoGjDc5QhWAy3K8PVQNFJfoFA-RS4/edit?usp=sharing) [[report]]({{ site.url }}/assets/pdf/hpr_report.pdf)
+#### Video Action Recognition using Generalised Zero Shot Learning (B.Tech Project - Ongoing)
+Generalised zero shot learning is a well studied problem wherein the model has to be trained in such a way that it is able to identify samples that come from completely unseen classes during deployment. We apply this method to video action recognition, namely, the [UCF101](https://www.crcv.ucf.edu/data/UCF101.php) and the [Large Human Motion Database(HMDB51)](https://serre-lab.clps.brown.edu/resource/hmdb-a-large-human-motion-database/) datasets. We propose a novel Generative Adversarial Network for this task which sets the benchmark for these datasets. Furthermore, we train the model incrementally, so as to gain better knowledge about the influence of training in different orders and perform various ablation studies.
 
-* Deep Learning for Prominence Detection in Children’s Read Speech (based on acoustic contours)  
-  [[presentation]]({{ site.url }}/assets/pdf/rnd_ppt.pdf) [[report]]({{ site.url }}/assets/pdf/rnd_report.pdf) [[arXiv]](https://arxiv.org/abs/2104.05488)
+<button class="button button2" onclick="{{site.url}}/assets/pdf/inpainting.pdf" type="button">Slides</button> <button class="button button2" onclick="https://github.com/advaitkumar3107/Generalised-Zero-Shot-Learning" type="button">Code</button>
 
-* SIRD model for studying outbreak of infectious diseases  
-  [[report]]({{ site.url }}/assets/pdf/sre_sird.pdf) [[code]](https://github.com/methi1999/SIRD-model)
+---
 
-### Course projects
+<img style="float: right;" src="{{site.url}}/assets/img/procgen.png">
 
-* EE708: Information Theory and Coding - Communication with Noiseless Feedback (Schalkwijk and Kailath coding scheme, 1966)  
-  [[presentation]]({{ site.url }}/assets/pdf/ee708_ppt.pdf)
-  
-* CS726: Advanced Machine Learning - Legendre Memory Units  
-  [[presentation]]({{ site.url }}/assets/pdf/cs726_ppt.pdf) [[code]](https://github.com/CyanideBoy/LegendreMemoryUnits)
+#### Improved Regularisation for Automatic Data Augmentation (Research Project - Ongoing)
+Learning from visual observations is a challenging problem in Reinforcement Learning. Although CNNs have proven to be quite successful, the method still fails on Data efficiency and Generalization to new environments. The DrAC model proposes 2 regularisation terms for the policy and value functions over RAD which achieves state-of-the-art results on the Procgen benchmarks. We will be looking at setting up a baseline on Procgen benchmarks ourselves and extend it further by using different algorithms for selecting the appropriate augmentation, and also practically experiment and find out best regularization functions for policy and value functions to optimize performance.
 
-* CS753: Automatic Speech Recognition - Hear me if you can! (Audio Steganography)  
-  [[presentation]]({{ site.url }}/assets/pdf/cs753_ppt.pptx) [[report]]({{ site.url }}/assets/pdf/cs753_report.pdf) [[code]](https://github.com/methi1999/stego-audio/)
+<button class="button button2" onclick="{{site.url}}/assets/pdf/ada_slides.pdf" type="button">Slides</button> <button class="button button2" onclick="{{site.url}}/assets/pdf/ada_report.pdf" type="button">Report</button>
 
-* EE786: Developments, Trends and Economic Frontiers in Electrical Engineering - Case Study on Light Cargo Drones  
-  [[case study]]({{ site.url }}/assets/pdf/ee786_case_study.pdf)
-  
-* EE763: Science of Information and Statistics - Abstract Reasoning Challenge  
-  [[presentation]]({{ site.url }}/assets/pdf/ee763_ppt.pdf)
-  
-* CS663: Digital Image Processing - Video Toonification  
-  [[code]](https://github.com/methi1999/CS663-DIP-Project)
-  
-* EE679: Speech Processing - Speech Compression using Deep Learning  
-  [[presentation]]({{ site.url }}/assets/pdf/ee679_paper_review.pdf)
-  
-* SC631: Games and Information Theory - A study of Auction Theory  
-  [[presentation]]({{ site.url }}/assets/pdf/sc631_auction_theory.pdf)
-  
-* EE224: Digital Systems - Implementation of RISC in VHDL  
-  [[specifications]]({{ site.url }}/assets/pdf/risc_specs.pdf) [[report]]({{ site.url }}/assets/pdf/risc_report.pdf) [[code]](https://github.com/methi1999/risc)
-  
-* IE613: Online Learning - A study of Duelling Bandits  
-  [[report]]({{ site.url }}/assets/pdf/bandit_report.pdf) [[code]](https://github.com/methi1999/dueling-bandits)
+---
+
+<img style="float: right;" src="{{site.url}}/assets/img/Mirnet.png">
+
+#### Low Light Noise Removal using CNN
+With the aim of restoring high-quality image content from its degraded version, image restoration has numerous applications. Lately, convolutional neural networks (CNNs) have achieved dramatic improvements over conventional approaches for image restoration task. Existing CNN-based methods typically operate either on full-resolution or on progressively low-resolution representations. In the former case, spatially precise but contextually less robust results are achieved, while in the latter case, semantically reliable but spatially less accurate outputs are generated. In this project, we study an architecture with the collective goals of maintaining spatially precise high-resolution representations through the entire network, and receiving strong contextual information from the low-resolution representations. We understand the functioning of the architecture and suggest modifications which can be done to further improve the performance depending on various use-cases.
 
 
-### Miscellaneous
+<button class="button button2" onclick="{{site.url}}/assets/pdf/llnr_slides.pdf" type="button">Slides</button> <button class="button button2" onclick="{{site.url}}/assets/pdf/llnr_report.pdf" type="button">Report</button>
 
-* [Keyword Spotting]({{ site.url }}/projects/kws)
-* [Hangman]({{ site.url }}/projects/hangman)
-* [FindIt]({{ site.url }}/projects/findit)
-* [IPL analysis]({{ site.url }}/projects/ipl)
-* [Handwriting Recognition Pen]({{ site.url }}/projects/itsp)
---!>
+---
+
+<img style="float: right;" src="{{site.url}}/assets/img/hrnet.png">
+
+#### Multi-Organ Nuclei Segmentation (MoNuSeg)
+Nuclear segmentation in digital microscopic tissue images could enable the extraction of high-quality features for nuclear morphometrics and other analysis in computational pathology. Techniques that accurately segment nuclei in diverse tissue images spanning a range of patients, organs, and disease states, can significantly contribute to the development of clinical and medical research software. As part of the MoNuSeg challenge (official satellite event of MICCAI 2018) I present my submission, which is a combination of the HRNet model with gated attention layers applied to it at relevant locations. It was able to achieve an Aggregated Jaccard Index (AJI) score of 0.6731 which was in the top 10 of the leaderboard.
+
+<button class="button button2" onclick="https://github.com/advaitkumar3107/MoNuSeg" type="button">Code</button> <button class="button button2" onclick="https://monuseg.grand-challenge.org" type="button">Challenge</button>
+
+---
+
+<img style="float: right;" src="{{site.url}}/assets/img/ocr.png">
+
+#### Optical Character Reader
+Developed an Optical Character Reader for detecting typed as well as handwritten text. This was presented in the tech expo 2019 held at IIT Bombay.
+
+<button class="button button2" onclick="https://github.com/advaitkumar3107/ITSP" type="button">Code</button>
+
+---
+
+<img style="float: right;" src="{{site.url}}/assets/img/ckt.png">
+
+#### Compensator Design
+Implemented a compensator ciruit based on the data given about the input and the output values of a black box structure.
+
+<button class="button button2" onclick="{{site.url}}/assets/EE-344/344_code.m" type="button">Code</button> <button class="button button2" onclick="{{site.url}}/assets/EE-344/344_report.pdf" type="button">Report</button> 
+
+---
+
+#### Online Courses
+* Natural Language Processing with Deep Learning (CS224n) : Completed the winter 2020 offering of the course by Stanford. Solutions to the assignments can be found [here](https://github.com/advaitkumar3107/CS224n-Winter-2020)
+* Convolutional Neural Networks for Visual Recognition (CS231n) : Completed the winter 2020 offering of the course by Stanford. Solutions to the assignments can be found [here](https://github.com/advaitkumar3107/CS231n-Solutions-PyTorch)
+* Machine Learning Specialization by Andrew Ng (Coursera) : Completed the online course on Machine Learning offered by Coursera. Solutions to the assignments can be found [here](https://github.com/advaitkumar3107/Andrew-Ng-Machine-Learning)
+* Deep Reinforcement Learning by WildML.com : Completed the online course on deep reinforcement learning offered by wildml.com . Solutions to the various implementations can be found [here](https://github.com/advaitkumar3107/Reinforcement-Learning-wildml.com-)
