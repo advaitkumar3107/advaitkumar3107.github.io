@@ -29,6 +29,10 @@ permalink: /projects
 #### RSINet: Inpainting Remotely Sensed Images Using Triple GAN Framework 
 We tackle the problem of image inpainting in the remote sensing domain. We propose a novel inpainting method that individually focuses on each aspect of an image such as edges, colour and texture using a task specific GAN. Moreover, each individual GAN also incorporates the attention mechanism thatexplicitly extracts the spectral and spatial features. To ensure consistent gradient flow, the model uses residual learning paradigm, thus simultaneously working with high and low level features. We evaluate our model, along with previous state of the art models, on the two well known remote sensing datasets, Open Cities AI and Earth on Canvas, and achieve better performance
 
+<form action="https://google.com">
+    <button class="button button2" type="submit" value="Go to Google" />
+</form>
+
 <button class="button button2" onclick="{{site.url}}/assets/pdf/inpainting.pdf" type="button">Paper</button> <button class="button button2" onclick="https://github.com/advaitkumar3107/RSINet" type="button">Code</button>
 
 <br />
