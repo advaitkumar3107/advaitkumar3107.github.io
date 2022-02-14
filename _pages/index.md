@@ -4,7 +4,7 @@ permalink: /
 ---
 {% include JB/setup %}
 
-<img style="center" src=" {{site.url}}/assets/img/profile.jpg " height="100%" width="100%">
+<img style="center" src=" {{site.url}}/assets/img/profile.jpg " height="75%" width="75%">
 
 Hello there! I am a 4th year undergraduate student doing an Inter-Disciplinary Dual Degree Program with a Bachelor's in [Electrical Engineering](https://www.ee.iitb.ac.in) and a Master's in [AI & Data Science](https://www.minds.iitb.ac.in/) from [IITB](https://www.iitb.ac.in). I am currently working on Video Action Recognition, using Generalised Zero Shot Learning, as part of my Bachelor's thesis under [Prof. Biplab Banerjee](https://biplab-banerjee.github.io/). More information on what I do [here](https://advaitkumar3107.github.io/about).
 
