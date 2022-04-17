@@ -17,8 +17,8 @@ Going to be posting blogs soon......
 ## Updates
 
 <!-- <div style="height:250px;overflow:auto;"> -->
+* **April 2022**: My work with Prof. Biplab Banerjee, [*RSINet: Inpainting Remotely Sensed Images Using Triple GAN Framework*](https://arxiv.org/abs/2202.05988)  got accepted for publication in the **IEEE IGARSS 2022** conference.
 * **February 2022**: Received the **Undergraduate Research Award** (URA-01) for exemplary research in Image Inpainting.
-* **February 2022**: Submitted my work with [Prof. Biplab Banerjee](https://biplab-banerjee.github.io/), *RSINet: Inpainting Remotely Sensed Images Using Triple GAN Framework* to the **IEEE IGARSS 2022** conference.
 * **November 2021**: Presented stage 1 of my **B.Tech Project**: *Video Action Recognition using Generalised Zero Shot Learning*. 
 * **July 2021**: Completed a Software Development Internship at **Amazon** (Hyderabad).
 * **June 2021**: Awarded a change of branch from a Masters in Communication and Signal Processing to a Masters in **AI & Data Science**.
